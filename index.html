@@ -3,30 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SparkleIMG - Descarga de Imágenes</title>
+    <title>SparkleIMG | Página de inicio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>SparkleIMG</h1>
-        <p>Descarga imágenes fácilmente desde cualquier link.</p>
     </header>
     <main>
-        <section class="download-section">
-            <h2>¿Cómo funciona?</h2>
+        <section class="about-section">
+            <h2>Página de inicio</h2>
+            <p>SparkleIMG es un servicio de hosting de imágenes, a las que puedes acceder desde una URL en la que solo va a estar la imagen y nada más. Esto es útil cuando quieres que, por ejemplo, un programa pueda usar una imagen sin tener que subirla al mismo, simplemente accediendo a ella desde una sencilla página web.</p>
+        </section>
+        <section class="how-to-upload">
+            <h2>Cómo subir una imagen a SparkleIMG</h2>
             <ol>
-                <li>Ingresa el link de la imagen que deseas descargar.</li>
-                <li>Haz clic en el botón de descargar.</li>
-                <li>¡Listo! Tu imagen se descargará automáticamente.</li>
+                <li>Abre un tiquete con la plantilla "Añadir Imagen" en Issues.</li>
+                <li>Pon las opciones de URL que quieres. Ejemplo: sparkle.archmc.es/imagen</li>
+                <li>Sube la imagen en formato PNG o JPG. El nombre de la imagen tiene que ser "imagen". Ejemplo: imagen.png</li>
+                <li>Cuando tu imagen esté lista, recibirás tu URL.</li>
             </ol>
         </section>
-        <section class="link-section">
-            <h2>Descarga tu imagen</h2>
-            <form action="sparkle.archmc.es/imagen" method="GET">
-                <label for="image-link">Link de SparkleIMG de la imagen:</label>
-                <input type="url" id="image-link" name="url" placeholder="http://example.com/imagen.jpg" required>
-                <button type="submit">Descargar</button>
-            </form>
+        <section class="how-to-contribute">
+            <h2>Cómo contribuir al proyecto</h2>
+            <h3>Abrir un tiquete</h3>
+            <p>Opción más sencilla y recomendada para errores o mejoras pequeñas. Simplemente ve a Issues y abre un tiquete con la plantilla "Solicitud de característica". Llena los campos con la información correspondiente.</p>
+            <h3>Clonar el repositorio</h3>
+            <p>Esta opción es un poco más compleja y recomendada para errores o mejoras grandes.</p>
+            <ol>
+                <li>Abre la terminal y clona el repositorio con <code>git clone https://github.com/SparkleIMG/SparkleIMG.github.io.git</code></li>
+                <li>Muévete a la carpeta del proyecto con <code>cd SparkleIMG.github.io</code></li>
+                <li>Haz los cambios que quieras hacer.</li>
+                <li>Inicia un pull request con <code>git push origin main</code></li>
+            </ol>
         </section>
     </main>
     <footer>
