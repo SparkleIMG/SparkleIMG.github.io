@@ -5,7 +5,8 @@ SparkleIMG es un servicio de hosting de imagenes, a las que puedes acceder desde
 ### Crear un usuario
 1. Abre in tiquete en Issues con la plantilla "Nuevo Usuario".
 2. Danos tres opciones para tu nombre de usuario. Si por ejemplo eliges que tu nombre de usuario sea "usuario", tu URL de usuario va a ser sparkle.archmc.es/usuario
-3. Te avisaremos cuando tu usuario haya sido creado.
+3. (Opcional): Sube un archivo zip con un HTML y un CSS para tener una página personalizada en tu URL de usuario.
+4. Te avisaremos cuando tu usuario haya sido creado.
 
 ### Subit una imagen
 1. Abre un tiquete en Issues con la plantilla "Subir Imagen".
