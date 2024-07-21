@@ -7,4 +7,7 @@ assignees: ''
 
 ---
 
+**Nombre de la imagen (obligatorio):**
+Ejemplo: imagen.png
+
 **Imagen en formato PNG o JPG (obligatorio):**
