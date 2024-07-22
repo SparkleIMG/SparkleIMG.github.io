@@ -1,7 +1,7 @@
 ---
 name: Solicitud de característica
 about: Sugiere una idea para mejorar este proyecto
-title: ''
+title: Feature Request
 labels: enhancement
 assignees: ''
 

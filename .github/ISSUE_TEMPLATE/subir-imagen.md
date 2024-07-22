@@ -1,7 +1,7 @@
 ---
-name: Subir imagen
+name: Subir Imagen
 about: Solicita que se suba una imagen a SparkleIMG
-title: ''
+title: Subir Imagen
 labels: new image
 assignees: ''
 

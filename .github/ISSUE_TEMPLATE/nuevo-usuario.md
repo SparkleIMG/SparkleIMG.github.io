@@ -1,7 +1,7 @@
 ---
 name: Nuevo Usuario
 about: Crea un usuario para usar SparkleIMG
-title: ''
+title: Nuevo Usuario
 labels: new user
 assignees: ''
 
